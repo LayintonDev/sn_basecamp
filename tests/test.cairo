@@ -1,4 +1,4 @@
-use sn_workshop::Counter;
+use sn_basecamp::Counter;
 use starknet::ContractAddress;
 
 use snforge_std::{
@@ -6,7 +6,7 @@ use snforge_std::{
     stop_cheat_caller_address, spy_events, EventSpyAssertionsTrait,
 };
 
-use sn_workshop::{
+use sn_basecamp::{
     ICounterDispatcher, ICounterDispatcherTrait, ICounterSafeDispatcher,
     ICounterSafeDispatcherTrait,
 };
