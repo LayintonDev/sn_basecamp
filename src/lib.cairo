@@ -49,7 +49,7 @@ pub mod Counter {
     }
 
     pub mod Errors {
-        pub const NEGATIVE_COUNTER: felt252 = 'Counter can\'t be Negative';
+        pub const NEGATIVE_COUNTER: felt252 = 'counter can\'t be negative';
     }
 
     #[constructor]
